@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+}
+
+.left {
+  width: 85%;
+}
+
+.right {
+  width: 15%;
+  height: 50%;
+  overflow: hidden;
+}
+
+.crop {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.crop iframe {
+  position: absolute;
+  top: -25%;
+  left: 0;
+  height: 150%;
+  width: 100%;
+}
